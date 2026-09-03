@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retrieval"
+version = "0.1.0"
+description = "Semantic, lexical, and hybrid retrieval capability for FlossWare"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[tool.setuptools.packages.find]
+include = ["retrieval*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
