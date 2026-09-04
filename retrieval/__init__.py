@@ -1,7 +1,7 @@
 """Reusable retrieval capability."""
 
 from .in_memory import InMemoryRetriever
-from .solr import SolrRetriever
+from .solr import SolrIndexer, SolrRetriever
 from .types import RetrievalResult, Retriever, VectorRetriever
 
-__all__ = ["InMemoryRetriever", "RetrievalResult", "Retriever", "SolrRetriever", "VectorRetriever"]
+__all__ = ["InMemoryRetriever", "RetrievalResult", "Retriever", "SolrIndexer", "SolrRetriever", "VectorRetriever"]
